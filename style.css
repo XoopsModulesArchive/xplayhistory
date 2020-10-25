@@ -1,0 +1,80 @@
+.playlist
+{
+    background-color:gray;
+    font-size:12px;
+    margin-top:2px;
+	 width: 100%;
+	 float: left;
+	 margin-right: 2px;
+}
+.playlist TH
+{
+    background-color:white;
+    padding-bottom:1px;
+    padding-top:1px;
+}
+.playlist TD
+{
+    background-color:white;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:1px;
+    padding-top:1px;
+    vertical-align:middle;
+    white-space: nowrap;
+}
+
+.fillWidth
+{
+	width: 100%;
+}
+
+.playlist TD:first-child
+{
+    width: 20px;
+}
+
+.menuStats
+{
+	border:solid 1px black;
+	padding:3px;
+	margin-top:2px;
+	text-align:center;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+	margin-right: 2px;
+}
+.menuStatsHighLight
+{
+	background-color:gray;
+	color:black;
+}
+.menuStats:hover
+{
+	background-color: silver;
+	cursor: pointer;
+}
+
+.statsTable
+{
+	margin-top:2px;
+	clear: both;
+	width:100%;
+	background-color: Silver;
+}
+
+.statsTable TD
+{	
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:white;
+}
+.graphBar
+{
+	background-color:blue;
+	border:0px;
+	color:black;
+	text-align:center;
+	margin-left: -8px;
+}

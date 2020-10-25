@@ -1,0 +1,24 @@
+<style>@import "style.css";</style>
+
+<table class="playlist" cellpadding="0" cellspacing="1"> 
+    <tr>
+        <th colspan="4"><{$mlRecentSongs}></th>
+    </tr>
+    <tr>
+        <th><{$mlArtist}></th>
+        <th><{$mlTitle}></th>
+        <th><{$mlAlbum}></th>
+        <th><{$mlTimePlayed}></th>
+    </tr>
+<{section name=i loop=$playhist}>
+
+    <tr>
+        <td><{$playhist[i].artist}></td>
+        <td><{$playhist[i].title}></td>
+        <td><{$playhist[i].album}></td>
+        <td align="center"><{$playhist[i].timePlayed}></td>
+    </tr>
+
+<{/section}>
+
+</table>

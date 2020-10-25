@@ -1,0 +1,18 @@
+================================================
+             XPLAYHISTORY CHANGELOG
+================================================
+
+version 0.1 rc1
+- Removed "Kenny G" as default value to shame list
+- Updated administration icon
+- Removed genre table
+- Disabled all error logging
+- Quotes fixed
+- Minimum window between songs implemented
+- Changed parameter to be more generic maintaining support for the Now Playing plugin.
+- Added genre and respective top 10
+- Added year and respective top 10
+- Shame list
+- Statistics by hour of the day
+- First draft: basic song list and top 10 artists and top 10 songs
+
